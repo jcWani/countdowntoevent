@@ -1,0 +1,50 @@
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 600px) {
+  video {
+    object-fit: cover;
+    object-position: 40%;
+    margin-top: -1px;
+  }
+
+  .video-background {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .container {
+    min-width: unset;
+    width: 95vw;
+    min-height: 245px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .input-container {
+    top: unset;
+  }
+
+  .countdown {
+    position: relative;
+    top: 10px;
+  }
+
+  .form {
+    width: unset;
+  }
+
+  input {
+    width: 93%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  li span {
+    font-size: 40px;
+  }
+}
